@@ -1,0 +1,101 @@
+body{
+    margin: 0 0;
+}
+h1{
+    font-size: 50px;
+}
+#canvas-bg{
+    position: absolute;
+    display: block;
+}
+#canvas-block{
+    position: absolute;
+    display: block;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+#next-bg{
+    position: absolute;
+    display: block;
+    margin: auto;
+    bottom: 0;
+}
+#score{
+    position: absolute;
+    display: block;
+    top: 120px;
+    width: 300px;
+    height: 300px;
+    background-color: #5e8a43;
+}
+#next-block{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    top: 420px;
+}
+#score span{
+    width: 300px;
+    height: 150px;
+    display: inline-block;
+    text-align: center;
+    line-height: 150px;
+    font-size: 50px;
+    font-weight: 900;
+}
+#next-block span{
+    width: 300px;
+    height: 120px;
+    display: inline-block;
+    text-align: center;
+    line-height: 120px;
+    font-size: 50px;
+    font-weight: 900;
+    background: #458174;
+}
+.st{
+    position: absolute;
+    display: inline-block;
+    text-align: center;
+    line-height: 300px;
+    font-size: 50px;
+    margin: auto;
+    bottom: 150px;
+    right: 0px;
+    width: 450px;
+    height: 300px;
+    background-color: #333;
+}
+.wrap{
+    width: 750px;
+    height: 720px;
+    position: relative;
+    display: inline-block;
+    margin: -200px auto ;
+}
+.wrap-main{
+    width: 450px;
+    height: 720px;
+    position: absolute;
+    display: block;
+    right: 0;
+}
+.wrap-side{
+    width: 300px;
+    height: 720px;
+    position: absolute;
+    display: block;
+    left: 0;
+}
+.rule{
+    font-size: 30px;
+    float: left;
+    display: inline-block;
+    width: 300px;
+}
+.rule p{
+    margin-left: 50px;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="static/main.css">
+    <script src="js/jquery.js"></script>
+    <script src="js/basic.js"></script>
+    <script src="js/animation.js"></script>
+    <!-- <script src="test.js"></script> -->
+
+    <script src="js/main.js"></script>
+    
+</head>
+<body>
+    <h1>俄罗斯方块</h1>>
+    <div class=rule>
+        <h2>规则</h2>
+        <p>↑翻转<br>
+           ←→控制方向<br>
+           ↓加速下落</p>
+        <p>本游戏为练习JS所做，更多的外观和特效主要应使用CSS3和canvas，今后可能添加。</p>
+       
+
+    </div>
+    <div class='wrap'>
+        <div class="wrap-side">
+            <div id="score">
+                <span>目前得分</span>
+                <span id="score-value"></span>
+            </div>
+            <div id="next-block">
+                <span>下一个</span>>
+                <canvas id="next-bg"></canvas>
+            </div>
+        </div> 
+        <div class="wrap-main">
+            <canvas id="canvas-bg"></canvas>
+            <canvas id="canvas-block"></canvas>
+            <div class="st" id="start">点击开始</div>
+            <div class="st" id="restart">重新开始</div>
+        </div>
+        
+    </div>
+    
+</body>
+</html>
