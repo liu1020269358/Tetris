@@ -26,33 +26,33 @@ h1{
 #score{
     position: absolute;
     display: block;
-    top: 120px;
-    width: 300px;
-    height: 300px;
+    top: 80px;
+    width: 200px;
+    height: 200px;
     background-color: #5e8a43;
 }
 #next-block{
     position: absolute;
-    width: 300px;
-    height: 300px;
-    top: 420px;
+    width: 200px;
+    height: 200px;
+    top: 280px;
 }
 #score span{
-    width: 300px;
-    height: 150px;
+    width: 200px;
+    height: 100px;
     display: inline-block;
     text-align: center;
-    line-height: 150px;
-    font-size: 50px;
+    line-height: 100px;
+    font-size: 30px;
     font-weight: 900;
 }
 #next-block span{
-    width: 300px;
-    height: 120px;
+    width: 200px;
+    height: 80px;
     display: inline-block;
     text-align: center;
-    line-height: 120px;
-    font-size: 50px;
+    line-height: 80px;
+    font-size: 30px;
     font-weight: 900;
     background: #458174;
 }
@@ -60,32 +60,32 @@ h1{
     position: absolute;
     display: inline-block;
     text-align: center;
-    line-height: 300px;
-    font-size: 50px;
+    line-height: 200px;
+    font-size: 30px;
     margin: auto;
-    bottom: 150px;
+    bottom: 100px;
     right: 0px;
-    width: 450px;
-    height: 300px;
+    width: 300px;
+    height: 200px;
     background-color: #333;
 }
 .wrap{
-    width: 750px;
-    height: 720px;
+    width: 500px;
+    height: 480px;
     position: relative;
     display: inline-block;
-    margin: -200px auto ;
+    margin: -150px auto 0;
 }
 .wrap-main{
-    width: 450px;
-    height: 720px;
+    width: 300px;
+    height: 480px;
     position: absolute;
     display: block;
     right: 0;
 }
 .wrap-side{
-    width: 300px;
-    height: 720px;
+    width: 200px;
+    height: 480px;
     position: absolute;
     display: block;
     left: 0;
@@ -94,8 +94,8 @@ h1{
     font-size: 30px;
     float: left;
     display: inline-block;
-    width: 300px;
+    width: 500px;
 }
 .rule p{
-    margin-left: 50px;
+    margin-left: 30px;
 }
