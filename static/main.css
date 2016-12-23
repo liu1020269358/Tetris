@@ -26,41 +26,13 @@ h1{
 #score{
     position: absolute;
     display: block;
-<<<<<<< HEAD
-    top: 120px;
-    width: 300px;
-    height: 300px;
-=======
     top: 80px;
     width: 200px;
     height: 200px;
->>>>>>> gh-pages
     background-color: #5e8a43;
 }
 #next-block{
     position: absolute;
-<<<<<<< HEAD
-    width: 300px;
-    height: 300px;
-    top: 420px;
-}
-#score span{
-    width: 300px;
-    height: 150px;
-    display: inline-block;
-    text-align: center;
-    line-height: 150px;
-    font-size: 50px;
-    font-weight: 900;
-}
-#next-block span{
-    width: 300px;
-    height: 120px;
-    display: inline-block;
-    text-align: center;
-    line-height: 120px;
-    font-size: 50px;
-=======
     width: 200px;
     height: 200px;
     top: 280px;
@@ -81,7 +53,6 @@ h1{
     text-align: center;
     line-height: 80px;
     font-size: 30px;
->>>>>>> gh-pages
     font-weight: 900;
     background: #458174;
 }
@@ -89,27 +60,6 @@ h1{
     position: absolute;
     display: inline-block;
     text-align: center;
-<<<<<<< HEAD
-    line-height: 300px;
-    font-size: 50px;
-    margin: auto;
-    bottom: 150px;
-    right: 0px;
-    width: 450px;
-    height: 300px;
-    background-color: #333;
-}
-.wrap{
-    width: 750px;
-    height: 720px;
-    position: relative;
-    display: inline-block;
-    margin: -200px auto ;
-}
-.wrap-main{
-    width: 450px;
-    height: 720px;
-=======
     line-height: 200px;
     font-size: 30px;
     margin: auto;
@@ -129,19 +79,13 @@ h1{
 .wrap-main{
     width: 300px;
     height: 480px;
->>>>>>> gh-pages
     position: absolute;
     display: block;
     right: 0;
 }
 .wrap-side{
-<<<<<<< HEAD
-    width: 300px;
-    height: 720px;
-=======
     width: 200px;
     height: 480px;
->>>>>>> gh-pages
     position: absolute;
     display: block;
     left: 0;
@@ -150,15 +94,8 @@ h1{
     font-size: 30px;
     float: left;
     display: inline-block;
-<<<<<<< HEAD
-    width: 300px;
-}
-.rule p{
-    margin-left: 50px;
-=======
     width: 500px;
 }
 .rule p{
     margin-left: 30px;
->>>>>>> gh-pages
 }
