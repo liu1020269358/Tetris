@@ -9,6 +9,16 @@ function drawBackGround(){
     context.fillStyle = '#666';
     context.fillRect(0, 80, 300, 400);
 
+    context.beginPath();
+    for(i=0; i<16; i++){
+        context.moveTo(i*20, 80)
+        context.lineTo(i*20, 480)
+    }
+    for(i=4; i<25; i++){
+        context.moveTo(0, i*20)
+        context.lineTo(300, i*20)
+    }
+    context.stroke();
 }
 
 function drawNextBlockBG(){
@@ -42,7 +52,7 @@ function updateBG(bg){
                     context.fillRect(start_x, start_y, 20, 20);
                 }
             }
-        }       
+        }
     }
 }
 
